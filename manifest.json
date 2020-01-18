@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "CNFashionPub Better Images",
+  "version": "0.1.0",
+  "description": "Allows you to view images on CNFasionPub easier",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://cnfashionpub.com/*", "https://www.cnfashionpub.com/*"]
+  }]
+ 
+}

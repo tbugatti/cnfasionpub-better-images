@@ -1,0 +1,18 @@
+img.secondary_image {
+    opacity: 1!important;
+    transform:scale(1)!important;
+    -webkit-transform:scale(1)!important;
+    -moz-transform:scale(1)!important;
+    -ms-transform:scale(1)!important;
+    -o-transform:scale(1)!important;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.primary_image {
+    opacity: 0;
+}
+
+.page-numbers span.current {
+    color: red!important;
+}
